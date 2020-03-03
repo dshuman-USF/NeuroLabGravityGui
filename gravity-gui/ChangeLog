@@ -1,0 +1,36 @@
+2017-10-26  dale@health.usf.edu
+
+	* debian/postinst.template: Move old tar file to /lab/SOURCES/old.
+
+2017-10-25  dale@health.usf.edu
+
+	* g_gui_impl.cpp: Add in window capture feature. Click on window, save
+	graphics, etc., to .jpg file.
+
+2017-10-18  dale@health.usf.edu
+
+	* configure.ac: bump to 1.0.2.
+	* g_gui_impl.cpp: Caculate the elapsed time in a .gdt file and display it
+	in the timeSpan control.
+	* g_progs_impl.cpp: Terminate some progs when there is no way to continue,
+	such as needing a filename and not getting one. Run buttons now enabled.
+	* debian/control: require gravity v 0.17.8 or greater.
+
+2017-10-16  dale@health.usf.edu
+
+	* ReplWidget.cpp: Check for keypad Enter key, not the same code as kbd
+	Enter key.
+
+2017-10-12  dale@health.usf.edu
+
+	* configure.ac: bump to 1.0.1.
+	* g_gui_impl.cpp: fix a couple of bugs in the bdt and gdt file processing.
+	Also check for alloc failures when reading in a very large .bdt, etc.,
+	file.
+	* debian/control: Now depends on gravity 1.17.6 or greater.
+	* g_progs_impl.cpp: remove all the gtune stuff. It is obsolete and no
+	longer used.
+
+2017-10-11  dale@health.usf.edu
+
+	* configure.ac: Initial release, version 1.0.0

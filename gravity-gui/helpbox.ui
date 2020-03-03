@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>helpbox</class>
+ <widget class="QDialog" name="helpbox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1194</width>
+    <height>746</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="helpTab">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="workFlowTab">
+      <attribute name="title">
+       <string>Work Flow</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QTextBrowser" name="helpText">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Here is a link to the Gravity manual:&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;/usr/local/share/doc/gravity/Gravity_Manual.pdf&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Link to Manual&lt;/span&gt;&lt;/a&gt; &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Here is a link to a flowchart that shows the flow of operations and data through the Gravitational Clustering suite.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;/usr/local/share/doc/gravity/GravityFlowchart.pdf&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Link to Gravity Flowchart&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace'; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace'; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;WORK FLOW &lt;/span&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;The gravity_gui program provides a graphical user interface (GUI) to a collection of gravity clustering programs.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'monospace';&quot;&gt;It is session-oriented. A session is defined to be a working directory and the files in it. Here is a typical work flow for a session.&lt;/span&gt;&lt;/p&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Start a session by creating a new directory or moving to an existing one. You can also use a terminal window and cd to the working directory and then run gravity_gui.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Create a .gdt from a .adt, bdt, or .edt file, or copy a .gdt file to the working directory. You can browse to another directory to select .adt, .bdt, or .edt files. The .gdt file will be created in the working session directory. If the file is a .edt file, you will be prompted to convert it to a .bdt file. Since some of the gravity programs have an option to include analog information from the originial .bdt file, a symbolic link to the .bdt file will be created in the session directory. This avoids the case of having many copies of potentially very large files.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; Note that some of the gravity programs fail if there are more than 10,000 spikes in the source .adt, .bdt, or .edt file. You need to use scope or other programs to create a subset of these files. Create the .gdt file from the subset file. &lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Create one or more parameter files or copy existing ones to the working directory. Parameter files can begin with param and/or use a .prm extension. If you are starting with no parameter files, you can use the Load .gdt File button to associate a .gdt files with the current parameter values. This name will be saved in the parameter file.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Run gbatch to create .pos and optionally .dis files. You may want to vary the parameters and create several varations of these files. It is expected that you would keep the base file name to be the same as the .gdt file name, but use a different optional file name modifier for each variation.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Using xtrydis and xprotm to fine tune the parameters. Note that these programs use the parameter values you see in the controls, not what is in the parameter file. You need to explicitly save the values to a parameter file. The program will remind you that you need to save the parameters if you change anything.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;It is suggested that you use a base name for the parameter file, such as the experiment name, and use the filename modifier for parameter variations. The basename and modification text comes from the parameter file, not the .gdt file name, since there may be many parameter files for the same .gdt file.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Once you have a parameter set you like, run edt_surrogate to generate .rdt surrogate files.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Then run gsig to use the .rdt files to generate sh*.pos and sh*.dis files.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;There are a variety of programs that view the results.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; Gravity-gui attempts to provide reasonable default file names in response to prompts from the gravity programs.  The basename and filename modification text comes from the parameter file name, not the .gdt file name, since there may be many parameter files for the same .gdt file You may want to keep the same base name, based on the recording name, and vary the optional modifier text in the Optional Filename Modifier control. You can also delete the suggested response and type in any valid filename text. Note that spaces in filenames may not work.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;You can optionally tell gravity-gui to always prompt for a file name with an Open File dialog box. There are a couple of cases where the Open FIle dialog is always used since there is no obvious default file name.&lt;/li&gt;
+&lt;li style=&quot; font-family:'Sans Serif';&quot; style=&quot; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Some of the gravity programs will not run if files from a previous run exist. In these cases, gravity-gui will ask you if you want to delete these files. If you answer Yes, gravity-gui will delete them and run the requested program. If you select No, the request to run the program will be ignored.&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:14px; margin-bottom:14px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Help info</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>false</bool>
+         </property>
+         <property name="openLinks">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QDialogButtonBox" name="helpClose_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="standardButtons">
+         <set>QDialogButtonBox::Close</set>
+        </property>
+        <property name="centerButtons">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>helpClose_2</sender>
+   <signal>accepted()</signal>
+   <receiver>helpbox</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>525</x>
+     <y>583</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>999</x>
+     <y>4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>helpClose_2</sender>
+   <signal>rejected()</signal>
+   <receiver>helpbox</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>548</x>
+     <y>578</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>952</x>
+     <y>-2</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

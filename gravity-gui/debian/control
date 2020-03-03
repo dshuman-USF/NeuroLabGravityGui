@@ -1,0 +1,27 @@
+Source: gravity-gui
+Section: local
+Priority: optional
+Maintainer: dshuman <dshuman@health.usf.edu>
+Build-Depends: debhelper (>= 9), autotools-dev,
+  qtbase5-dev,
+  qtcreator,
+  qt5-doc,
+  qt5-doc-html,
+  libglib2.0-0,
+  gawk,
+  libsigsegv2,
+  libreadline7,
+  locales,
+  pkg-config
+Standards-Version: 4.2.1
+Homepage: cisc3
+
+Package: gravity-gui
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends},
+   gravity (>= 0.17.10),
+   surrogate (>= 1.0.12)
+Description: A graphical front end for a suite of gravitational clustering programs.
+   A graphical front end for a suite of gravitational clustering ("gravity")
+   programs.  The GUI assists in creating files required by the gravity suite
+   running the programs and returning results.
